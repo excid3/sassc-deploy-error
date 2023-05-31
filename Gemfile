@@ -22,7 +22,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'better_errors'
   gem 'annotate'
   gem 'binding_of_caller'
   gem 'bullet'
@@ -96,5 +95,3 @@ gem 'geocoder'
 gem "aws-sdk-s3", "~> 1.121"
 gem 'meta-tags'
 gem 'ice_cube'
-
-gem "sassc-rails", "~> 2.1"
